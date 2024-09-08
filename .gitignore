@@ -1,0 +1,19 @@
+.pytest_cache/
+*_venv/
+venv_*/
+venv/
+.idea/
+htmlcov/
+*.pyc
+
+# Coverage
+coverage.xml
+htmlcov
+.coverage
+
+# dot env file
+.env
+
+
+# Sphinx files
+build/
