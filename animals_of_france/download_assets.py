@@ -1,4 +1,5 @@
 import json
+import os
 from logging import warning
 
 from dotenv import load_dotenv
@@ -33,6 +34,12 @@ def _save_to_disc(resource: list[Resource]) -> None:
 
 
 def download_assets() -> None:
+    print(os.environ)  # noqa: T201
+
+    if "CLOUDINARY_URL" not in os.environ:
+        message = "CLOUDINARY_URL is not provided"
+        raise Exception(message)  # noqa: TRY002
+
     images = _get_images()
     _save_to_disc(images)
 

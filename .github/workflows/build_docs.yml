@@ -12,10 +12,11 @@ jobs:
         run: |
           pip install -r requirements-ci.txt
       - name: Sphinx build
-        run: |
-          sphinx-build source build
         env:
           CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+          TEST_ENV: "hello"
+        run: |
+          sphinx-build source build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: ${{ (github.event_name == 'push' && github.ref == 'refs/heads/master') || github.event_name == 'workflow_dispatch' }}
