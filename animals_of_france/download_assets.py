@@ -34,8 +34,6 @@ def _save_to_disc(resource: list[Resource]) -> None:
 
 
 def download_assets() -> None:
-    print(os.environ)  # noqa: T201
-
     if "CLOUDINARY_URL" not in os.environ:
         message = "CLOUDINARY_URL is not provided"
         raise Exception(message)  # noqa: TRY002
