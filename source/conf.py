@@ -1,3 +1,10 @@
+import sys
+from pathlib import Path
+
+root = Path(__file__).parent.parent
+
+sys.path.append(root.as_posix())
+
 from animals_of_france.build_docs import build_docs
 
 # Configuration file for the Sphinx documentation builder.

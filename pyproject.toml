@@ -29,7 +29,7 @@ ignore = [
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
 "tests/*" = ["D10", "D101", "D103", "S101", "ANN", "PLR2004", "INP001"]
-"source/conf.py" = ["INP001", "A001"]
+"source/conf.py" = ["INP001", "A001", "E402"]
 
 [tool.ruff.lint.mccabe]
 max-complexity = 5
