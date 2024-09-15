@@ -1,0 +1,11 @@
+Aix galericulata
+================
+
+- Français: Canard mandarin
+- English: Mandarin duck
+- Русский: Мандаринка
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706527/DSC_6013_gzuxmz.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706527/DSC_6013_gzuxmz.jpg
+
+Was taken at 2024-04-09

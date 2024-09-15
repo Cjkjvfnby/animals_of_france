@@ -1,0 +1,13 @@
+Phalacrocorax carbo
+===================
+
+- Français: Grand Cormoran
+- English: Great cormorant
+- Русский: Большой баклан
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706527/DSC_6086_k0wcgl.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706527/DSC_6086_k0wcgl.jpg
+
+Was taken at 2024-04-09
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.873210022484514, 2.2481635471516968>`_

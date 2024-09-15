@@ -1,0 +1,11 @@
+Pavo cristatus
+==============
+
+- Français: Paon bleu
+- English: Indian peafowl
+- Русский: Обыкновенный павлин
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706528/DSC_6122_cw0mz0.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706528/DSC_6122_cw0mz0.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87100578026341, 2.2504503351638676>`_

@@ -1,0 +1,11 @@
+Anser indicus
+=============
+
+- Français: Oie à tête barrée
+- English: Bar-headed goose
+- Русский: Горный гусь
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706527/DSC_6032_dgrbqu.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706527/DSC_6032_dgrbqu.jpg
+
+Was taken at 2024-04-09
