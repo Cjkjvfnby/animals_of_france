@@ -47,6 +47,7 @@ def _make_file(file_name: str, image: Resource) -> None:
         )
         result.append(f"\n`Was taken around this place <{map_url}>`_")
 
+    GENERATED_FOLDER.mkdir(exist_ok=True)
     with (GENERATED_FOLDER / file_name).open("w", encoding="utf8") as f:
         f.write("\n".join(result))
 
