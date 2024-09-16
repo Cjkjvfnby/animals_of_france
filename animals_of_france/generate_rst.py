@@ -1,5 +1,5 @@
 from datetime import datetime
-from itertools import cycle
+from itertools import cycle, groupby
 from logging import warning
 
 from pydantic import TypeAdapter
@@ -11,7 +11,7 @@ from animals_of_france.configuration import (
     TOC_TREE_FILE,
 )
 from animals_of_france.models import Resource, ResourceMetadata
-from animals_of_france.translation import translate
+from animals_of_france.representation import Species
 
 _empty = Resource(
     asset_id="",
@@ -22,37 +22,35 @@ _empty = Resource(
 )
 
 
-def _make_file(file_name: str, image: Resource) -> None:
-    fr, en, ru = translate(image.metadata.latin_name)
-
+def _make_file(file_name: str, species: Species) -> None:
     result = [
-        f"{image.metadata.latin_name}",
-        "=" * len(image.metadata.latin_name),
+        f"{species.title}",
+        "=" * len(species.title),
         "",
-        f"- Français: {fr}",
-        f"- English: {en}",
-        f"- Русский: {ru}",
+        f"- Français: {species.fr}",
+        f"- English: {species.en}",
+        f"- Русский: {species.ru}",
         "",
-        f".. image:: {image.secure_url}",
-        f"   :target: {image.secure_url}",
     ]
 
-    if image.metadata.foto_date:
-        taken_at = datetime.strptime(image.metadata.foto_date, "%Y-%m-%d")  # noqa: DTZ007
-        result.append(f"\nWas taken at {taken_at.date()}")
+    for image in species.images:
+        result.append(f".. image:: {image.url}")
+        result.append(f"   :target: {image.url}")
 
-    if image.metadata.coords:
-        map_url = (
-            f"https://www.google.com/maps/search/?api=1&query={image.metadata.coords}"
-        )
-        result.append(f"\n`Was taken around this place <{map_url}>`_")
+        if image.foto_date:
+            taken_at = datetime.strptime(image.foto_date, "%Y-%m-%d")  # noqa: DTZ007
+            result.append(f"\nWas taken at {taken_at.date()}")
 
-    GENERATED_FOLDER.mkdir(exist_ok=True)
-    with (GENERATED_FOLDER / file_name).open("w", encoding="utf8") as f:
-        f.write("\n".join(result))
+        if image.coords:
+            map_url = f"https://www.google.com/maps/search/?api=1&query={image.coords}"
+            result.append(f"\n`Was taken around this place <{map_url}>`_")
+
+        GENERATED_FOLDER.mkdir(exist_ok=True)
+        with (GENERATED_FOLDER / file_name).open("w", encoding="utf8") as f:
+            f.write("\n".join(result))
 
 
-def _generate_dash_board(data: list[Resource]) -> None:
+def _generate_dash_board(data: list[Species]) -> None:
     result = [
         ".. list-table::",
         "   :class: field-list",
@@ -63,18 +61,15 @@ def _generate_dash_board(data: list[Resource]) -> None:
     number_of_columns = 3
     header_check = cycle([True] + [False] * (number_of_columns - 1))
 
-    for image in data:
+    for sp in data:
         is_header = next(header_check)
         sign = "*" if is_header else " "
 
-        fr, en, ru = translate(image.metadata.latin_name)
-
         result.extend(
             (
-                f"   {sign} - .. figure:: {image.secure_url}",
-                f"          :target: {image.secure_url}",
+                f"   {sign} - .. figure:: {sp.images[0].url}",
                 "",
-                f"          :doc:`/generated/{image.asset_id}`",
+                f"          :doc:`/generated/{sp.id}`",
             )
         )
 
@@ -88,12 +83,17 @@ def _generate_dash_board(data: list[Resource]) -> None:
 
 def generate_rst() -> None:
     with IMAGE_DUMP_PATH.open() as f:
-        data = TypeAdapter(list[Resource]).validate_json(f.read())
+        resources = TypeAdapter(list[Resource]).validate_json(f.read())
+
+        data = [
+            Species.from_model(list(group))
+            for _, group in groupby(resources, lambda x: x.metadata.latin_name)
+        ]
 
     base_item_list = []
 
     for image in data:
-        file_name = f"{image.asset_id}.rst"
+        file_name = f"{image.id}.rst"
         base_item_list.append("generated/" + file_name)
         _make_file(file_name, image)
         _generate_toc_tree(base_item_list)
