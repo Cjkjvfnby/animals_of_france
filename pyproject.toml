@@ -24,12 +24,14 @@ ignore = [
     "ISC001",  # handled by formatter
     "D1",  # Do not require docs presence
     "DTZ005", "DTZ006",  # date time without tz
+    "T201",  # use print before logging is added
 ]
 
 [tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401"]
 "tests/*" = ["D10", "D101", "D103", "S101", "ANN", "PLR2004", "INP001"]
 "source/conf.py" = ["INP001", "A001", "E402"]
+"animals_of_france/translation.py" = ["RUF001"]
 
 [tool.ruff.lint.mccabe]
 max-complexity = 5

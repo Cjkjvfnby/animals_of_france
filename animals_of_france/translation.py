@@ -4,8 +4,20 @@ _mapping = {
     "Aix galericulata": ("Canard mandarin", "Mandarin duck", "Мандаринка"),
     "Ardea cinerea": ("Héron cendré", "Grey heron", "Серая цапля"),
     "Pavo cristatus": ("Paon bleu", "Indian peafowl", "Обыкновенный павлин"),
+    "Sturnus": ("Sturnus", "Sturnus", "Скворeц"),
+    "Cygnus": ("Cygne", "Swan", "Лебедь"),
+    "Gallinula chloropus": ("Gallinule poule-d'eau", "Common moorhen", "Камышница"),
+    "Laridae": ("Larinae", "Gull", "Чайка"),
+    "Phalacrocorax": ("Cormoran", "Cormorant", "Баклан"),
+    "Fulica atra": ("Foulque macroule", "Eurasian coot", "Лысуха"),
+    "Corvus corax": ("Grand corbeau", "Common raven", "Ворон"),
+    "Columba": ("Pigeon", "Pigeon", "Голубь"),
+    "Unknown": ("", "", ""),
 }
 
 
 def translate(latin_name: str) -> tuple[str, str, str]:
-    return _mapping.get(latin_name, ("", "", ""))
+    if latin_name in _mapping:
+        return _mapping[latin_name]
+    print(f"No translation for {latin_name}")
+    return "", "", ""

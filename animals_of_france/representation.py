@@ -10,7 +10,7 @@ class Image(BaseModel):
     coords: str
 
 
-class Species(BaseModel):
+class Animal(BaseModel):
     id: str
     images: list[Image]
 
@@ -24,11 +24,11 @@ class Species(BaseModel):
         return f"{self.fr}"
 
     @staticmethod
-    def from_model(resources: list[Resource]) -> "Species":
+    def from_model(resources: list[Resource]) -> "Animal":
         first_resource = resources[0]
         fr, en, ru = translate(first_resource.metadata.latin_name)
 
-        return Species(
+        return Animal(
             id=first_resource.metadata.latin_name.lower().replace(" ", "_"),
             images=[
                 Image(
