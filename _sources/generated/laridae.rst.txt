@@ -1,0 +1,9 @@
+Larinae
+=======
+
+- Français: Larinae
+- English: Gull
+- Русский: Чайка
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607786/DSC_4936_kphmsi.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607786/DSC_4936_kphmsi.jpg

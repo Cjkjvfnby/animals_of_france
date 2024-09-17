@@ -1,0 +1,11 @@
+Foulque macroule
+================
+
+- Français: Foulque macroule
+- English: Eurasian coot
+- Русский: Лысуха
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607784/DSC_4832_uf6bka.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607784/DSC_4832_uf6bka.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.79505273808817, 2.240115046350408>`_

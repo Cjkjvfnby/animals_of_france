@@ -1,0 +1,9 @@
+Cygne
+=====
+
+- Français: Cygne
+- English: Swan
+- Русский: Лебедь
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608157/DSC_4992_a8pput.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608157/DSC_4992_a8pput.jpg

@@ -1,0 +1,13 @@
+Pigeon
+======
+
+- Français: Pigeon
+- English: Pigeon
+- Русский: Голубь
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607456/DSC_8475_xty9uz.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607456/DSC_8475_xty9uz.jpg
+
+Was taken at 2024-07-09
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.635391225102815, -1.5104647099029467>`_

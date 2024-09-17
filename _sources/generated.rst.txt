@@ -2,8 +2,12 @@
 .. toctree::
    :maxdepth: 2
 
-   generated/d644784adaeab5fb5732544f47d1b76b
-   generated/d1896979adafc1de10ab9666a954240c
-   generated/3672b2d67e19b991cb5384efda606778
-   generated/3666a954f8b67301c819bc0e06080508
-   generated/3719e3bf2d4ca62ac5bf6f2bbd5a89e2
+   generated/ardea_cinerea
+   generated/columba
+   generated/corvus_corax
+   generated/cygnus
+   generated/fulica_atra
+   generated/gallinula_chloropus
+   generated/laridae
+   generated/phalacrocorax
+   generated/sturnus

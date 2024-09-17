@@ -1,0 +1,9 @@
+Gallinule poule-d'eau
+=====================
+
+- Français: Gallinule poule-d'eau
+- English: Common moorhen
+- Русский: Камышница
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608156/DSC_4974_xpejo2.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608156/DSC_4974_xpejo2.jpg
