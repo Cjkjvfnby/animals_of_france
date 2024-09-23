@@ -1,0 +1,9 @@
+Grand corbeau / Common raven / Ворон
+====================================
+
+- Français: Grand corbeau
+- English: Common raven
+- Русский: Ворон
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607783/DSC_4554_ztlngo.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607783/DSC_4554_ztlngo.jpg

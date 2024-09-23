@@ -1,0 +1,13 @@
+Héron cendré / Grey heron / Серая цапля
+=======================================
+
+- Français: Héron cendré
+- English: Grey heron
+- Русский: Серая цапля
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706528/DSC_6142_kshfez.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706528/DSC_6142_kshfez.jpg
+
+Was taken at 2024-04-09
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87316582228561, 2.2480885346790416>`__

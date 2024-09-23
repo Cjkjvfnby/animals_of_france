@@ -1,5 +1,5 @@
-Pigeon
-======
+Pigeon / Pigeon / Голубь
+========================
 
 - Français: Pigeon
 - English: Pigeon
@@ -8,4 +8,11 @@ Pigeon
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125901/DSC_6049_suyl3i.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125901/DSC_6049_suyl3i.jpg
 
-`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.8659774299538, 2.315064701246262>`_
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.8659774299538, 2.315064701246262>`__
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607456/DSC_8475_xty9uz.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607456/DSC_8475_xty9uz.jpg
+
+Was taken at 2024-07-09
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.635391225102815, -1.5104647099029467>`__
