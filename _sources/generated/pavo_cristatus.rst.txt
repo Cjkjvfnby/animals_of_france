@@ -1,0 +1,23 @@
+Paon bleu
+=========
+
+- Français: Paon bleu
+- English: Indian peafowl
+- Русский: Обыкновенный павлин
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126012/DSC_6348_apxkt5.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126012/DSC_6348_apxkt5.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87200614366322, 2.249959828248573>`_
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126010/DSC_6307_n8l1mc.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126010/DSC_6307_n8l1mc.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87200614366322, 2.249959828248573>`_
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126007/DSC_6336_e7fo1h.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126007/DSC_6336_e7fo1h.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87200614366322, 2.249959828248573>`_
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126004/DSC_6284_ne2uzf.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126004/DSC_6284_ne2uzf.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87200614366322, 2.249959828248573>`_

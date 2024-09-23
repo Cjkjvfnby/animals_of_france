@@ -1,0 +1,19 @@
+
+
+
+- Français: 
+- English: 
+- Русский: 
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5702_l9p3aq.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5702_l9p3aq.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.85691034723786, 2.2574292666886007>`_
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5729_cgdxpj.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5729_cgdxpj.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.85691034723786, 2.2574292666886007>`_
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5694_bz8o8e.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5694_bz8o8e.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.85691034723786, 2.2574292666886007>`_

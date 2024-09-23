@@ -1,0 +1,11 @@
+Perruche à collier
+==================
+
+- Français: Perruche à collier
+- English: Rose-ringed parakeet
+- Русский: Индийский кольчатый попугай
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126075/DSC_6416_uxatzy.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126075/DSC_6416_uxatzy.jpg
+
+`Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87200614366322, 2.249959828248573>`_

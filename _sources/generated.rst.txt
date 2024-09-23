@@ -2,12 +2,8 @@
 .. toctree::
    :maxdepth: 2
 
-   generated/ardea_cinerea
+   generated/anser_anser
    generated/columba
-   generated/corvus_corax
-   generated/cygnus
-   generated/fulica_atra
-   generated/gallinula_chloropus
-   generated/laridae
-   generated/phalacrocorax
-   generated/sturnus
+   generated/pavo_cristatus
+   generated/psittacula_krameri
+   generated/unknown
