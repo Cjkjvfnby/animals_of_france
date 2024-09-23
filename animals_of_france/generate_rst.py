@@ -43,7 +43,9 @@ def _make_file(file_name: str, species: Animal) -> None:
 
         if image.coords:
             map_url = f"https://www.google.com/maps/search/?api=1&query={image.coords}"
-            result.append(f"\n`Was taken around this place <{map_url}>`_")
+            result.append(f"\n`Was taken around this place <{map_url}>`__")
+
+        result.append("")
 
         GENERATED_FOLDER.mkdir(exist_ok=True)
         with (GENERATED_FOLDER / file_name).open("w", encoding="utf8") as f:
