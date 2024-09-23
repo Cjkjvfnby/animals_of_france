@@ -15,16 +15,25 @@ import cloudinary  # noqa: E402
 import cloudinary.api  # noqa: E402
 import cloudinary.uploader  # noqa: E402
 
+_CLOUDINARY_MAX_PAGE_SIZE = 500
+
 
 def _get_images() -> list[Resource]:
-    return ResourceResponse(
+    images = ResourceResponse(
         **cloudinary.api.resources(
             resource_type="image",
             type="upload",
             asset_folder="animals_of_france",
             format="jpg",
+            max_results=500,
         )
     ).resources
+
+    if len(images) == _CLOUDINARY_MAX_PAGE_SIZE:
+        message = "Too many images, it's time to make pagination"
+        raise RuntimeError(message)
+
+    return images
 
 
 def _save_to_disc(resource: list[Resource]) -> None:
@@ -40,6 +49,7 @@ def download_assets() -> None:
 
     images = _get_images()
     _save_to_disc(images)
+    print(f"Saved: {len(images)}")
 
 
 if __name__ == "__main__":
