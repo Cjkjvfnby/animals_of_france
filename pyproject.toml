@@ -11,6 +11,7 @@ target-version = "py311"
 [tool.ruff.lint]
 select = ["ALL"]
 ignore = [
+    "E501",  # handled by formatter
     "ANN101", "ANN204", "ANN401",
     "D104",  # no docstring in public package
     "D107", "D105", # docstring for magic method

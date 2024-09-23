@@ -12,6 +12,12 @@ _mapping = {
     "Fulica atra": ("Foulque macroule", "Eurasian coot", "Лысуха"),
     "Corvus corax": ("Grand corbeau", "Common raven", "Ворон"),
     "Columba": ("Pigeon", "Pigeon", "Голубь"),
+    "Anser anser": ("Oie cendrée", "Greylag goose", "Серый гусь"),
+    "Psittacula krameri": (
+        "Perruche à collier",
+        "Rose-ringed parakeet",
+        "Индийский кольчатый попугай",
+    ),
     "Unknown": ("", "", ""),
 }
 
