@@ -21,7 +21,7 @@ class Animal(BaseModel):
 
     @property
     def title(self) -> str:
-        return f"{self.fr}"
+        return f"{self.fr} / {self.en} / {self.ru}"
 
     @staticmethod
     def from_model(resources: list[Resource]) -> "Animal":
