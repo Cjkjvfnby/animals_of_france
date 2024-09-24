@@ -1,7 +1,7 @@
-from datetime import datetime
-from itertools import cycle, groupby
+from itertools import groupby, zip_longest
 from logging import warning
 
+from jinja2 import Environment, PackageLoader, select_autoescape
 from pydantic import TypeAdapter
 
 from animals_of_france.configuration import (
@@ -10,46 +10,22 @@ from animals_of_france.configuration import (
     IMAGE_DUMP_PATH,
     TOC_TREE_FILE,
 )
-from animals_of_france.models import Resource, ResourceMetadata
+from animals_of_france.models import Resource
 from animals_of_france.representation import Animal
 
-_empty = Resource(
-    asset_id="",
-    secure_url="",
-    metadata=ResourceMetadata(
-        latin_name="",
-    ),
+env = Environment(
+    loader=PackageLoader("animals_of_france"), autoescape=select_autoescape()
 )
 
 
 def _make_file(file_name: str, species: Animal) -> None:
-    result = [
-        f"{species.title}",
-        "=" * len(species.title),
-        "",
-        f"- Français: {species.fr}",
-        f"- English: {species.en}",
-        f"- Русский: {species.ru}",
-        "",
-    ]
+    template = env.get_template("animal.tmpl.rst")
 
-    for image in species.images:
-        result.append(f".. image:: {image.url}")
-        result.append(f"   :target: {image.url}")
+    text = template.render(animal=species)
 
-        if image.foto_date:
-            taken_at = datetime.strptime(image.foto_date, "%Y-%m-%d")  # noqa: DTZ007
-            result.append(f"\nWas taken at {taken_at.date()}")
-
-        if image.coords:
-            map_url = f"https://www.google.com/maps/search/?api=1&query={image.coords}"
-            result.append(f"\n`Was taken around this place <{map_url}>`__")
-
-        result.append("")
-
-        GENERATED_FOLDER.mkdir(exist_ok=True)
-        with (GENERATED_FOLDER / file_name).open("w", encoding="utf8") as f:
-            f.write("\n".join(result))
+    GENERATED_FOLDER.mkdir(exist_ok=True)
+    with (GENERATED_FOLDER / file_name).open("w", encoding="utf8") as f:
+        f.write(text)
 
 
 def _empty_lines_needed(total: int, number_of_columns: int) -> int:
@@ -60,36 +36,11 @@ def _empty_lines_needed(total: int, number_of_columns: int) -> int:
 
 
 def _generate_dash_board(animals: list[Animal]) -> None:
-    result = [
-        ".. list-table::",
-        "   :class: field-list",
-        "   :widths: 1 1 1",
-        "",
-    ]
-
-    number_of_columns = 3
-    header_check = cycle([True] + [False] * (number_of_columns - 1))
-
-    for sp in animals:
-        is_header = next(header_check)
-        sign = "*" if is_header else " "
-
-        result.extend(
-            (
-                f"   {sign} - .. figure:: {sp.images[0].url}",
-                "",
-                f"          :doc:`/generated/{sp.id}`",
-            )
-        )
-
-    empty_lines = _empty_lines_needed(len(animals), number_of_columns)
-
-    result.extend(["     -\n"] * empty_lines)
-
-    result.append("")
+    template = env.get_template("base.tmpl.rst")
+    rows = list(zip_longest(*[iter(animals)] * 3))
 
     with DASHBOARD.open("w", encoding="utf8") as f:
-        f.write("\n".join(result))
+        f.write(template.render(rows=rows))
 
 
 def generate_rst() -> None:
@@ -117,13 +68,12 @@ def generate_rst() -> None:
 
 
 def _generate_toc_tree(base_item_list: list[str]) -> None:
+    template = env.get_template("generated.tmpl.rst")
+
+    text = template.render(names=[x[:-4] for x in base_item_list])
+
     with TOC_TREE_FILE.open("w", encoding="utf8") as f:
-        f.write(".. include:: generated/base.rst\n")
-        f.write(".. toctree::\n")
-        f.write("   :maxdepth: 2\n")
-        f.write("\n")
-        for name in base_item_list:
-            f.write(f"   {name[:-4]}\n")
+        f.write(text)
 
 
 if __name__ == "__main__":
