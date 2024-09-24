@@ -6,6 +6,7 @@ _mapping = {
     "Pavo cristatus": ("Paon bleu", "Indian peafowl", "Обыкновенный павлин"),
     "Sturnus": ("Sturnus", "Sturnus", "Скворeц"),
     "Cygnus": ("Cygne", "Swan", "Лебедь"),
+    "Cygnus olor": ("Cygne tuberculé", "Mute swan", "Лебедь-шипун"),
     "Gallinula chloropus": ("Gallinule poule-d'eau", "Common moorhen", "Камышница"),
     "Laridae": ("Larinae", "Gull", "Чайка"),
     "Phalacrocorax": ("Cormoran", "Cormorant", "Баклан"),
@@ -13,6 +14,11 @@ _mapping = {
     "Corvus corax": ("Grand corbeau", "Common raven", "Ворон"),
     "Columba": ("Pigeon", "Pigeon", "Голубь"),
     "Anser anser": ("Oie cendrée", "Greylag goose", "Серый гусь"),
+    "Chroicocephalus ridibundus": (
+        "Mouette rieuse",
+        "Black-headed gull",
+        "Озёрная чайка",
+    ),
     "Psittacula krameri": (
         "Perruche à collier",
         "Rose-ringed parakeet",
