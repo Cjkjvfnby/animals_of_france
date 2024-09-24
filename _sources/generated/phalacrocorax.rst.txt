@@ -8,7 +8,10 @@ Cormoran / Cormorant / Баклан
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726609438/DSC_5654_kqrp57.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726609438/DSC_5654_kqrp57.jpg
 
+
+
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607785/DSC_4846_eueswt.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607785/DSC_4846_eueswt.jpg
+
 
 `Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.795361379420065, 2.2410520944328653>`__

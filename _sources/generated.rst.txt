@@ -6,12 +6,12 @@
    generated/anser_anser
    generated/anser_indicus
    generated/ardea_cinerea
+   generated/chroicocephalus_ridibundus
    generated/columba
    generated/corvus_corax
-   generated/cygnus
+   generated/cygnus_olor
    generated/fulica_atra
    generated/gallinula_chloropus
-   generated/laridae
    generated/pavo_cristatus
    generated/phalacrocorax
    generated/phalacrocorax_carbo

@@ -1,0 +1,11 @@
+Cygne tuberculé / Mute swan / Лебедь-шипун
+==========================================
+
+- Français: Cygne tuberculé
+- English: Mute swan
+- Русский: Лебедь-шипун
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608157/DSC_4992_a8pput.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608157/DSC_4992_a8pput.jpg
+
+

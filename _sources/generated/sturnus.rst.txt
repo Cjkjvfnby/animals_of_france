@@ -7,3 +7,5 @@ Sturnus / Sturnus / Скворeц
 
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608159/DSC_5032_kg80m8.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608159/DSC_5032_kg80m8.jpg
+
+

@@ -1,0 +1,11 @@
+Mouette rieuse / Black-headed gull / Озёрная чайка
+==================================================
+
+- Français: Mouette rieuse
+- English: Black-headed gull
+- Русский: Озёрная чайка
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607786/DSC_4936_kphmsi.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607786/DSC_4936_kphmsi.jpg
+
+

@@ -8,4 +8,5 @@ Perruche à collier / Rose-ringed parakeet / Индийский кольчаты
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126075/DSC_6416_uxatzy.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126075/DSC_6416_uxatzy.jpg
 
+
 `Was taken around this place <https://www.google.com/maps/search/?api=1&query=48.87200614366322, 2.249959828248573>`__
