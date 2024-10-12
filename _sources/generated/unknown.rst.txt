@@ -5,6 +5,11 @@
 - English: ???
 - Русский: ???
 
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9577_lrmyed.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9577_lrmyed.jpg
+
+
+
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5729_cgdxpj.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5729_cgdxpj.jpg
 

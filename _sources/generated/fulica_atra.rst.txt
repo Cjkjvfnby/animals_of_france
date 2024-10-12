@@ -5,6 +5,11 @@ Foulque macroule / Eurasian coot / Лысуха
 - English: Eurasian coot
 - Русский: Лысуха
 
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9552_zeeatw.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9552_zeeatw.jpg
+
+
+
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5702_l9p3aq.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5702_l9p3aq.jpg
 
