@@ -4,5 +4,8 @@
 {% for row in rows %}
 {% for animal in row %}
    {% if loop.index0 == 0 %}*{% else%} {% endif %}{% if animal %} - .. figure:: {{animal.images[0].url}}
+   {% else %} -{%endif%}{% endfor -%}
 
-          :doc:`/generated/{{animal.id -}}`{% else %} -{%endif%}{% endfor -%}{% endfor -%}
+{% for animal in row %}
+   {% if loop.index0 == 0 %}*{% else%} {% endif %}{% if animal %} - :doc:`/generated/{{animal.id -}}`{% else %} -{%endif%}{% endfor -%}
+{% endfor -%}
