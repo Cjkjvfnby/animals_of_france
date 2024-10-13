@@ -13,33 +13,43 @@
      - :doc:`/generated/anser_anser`
      - :doc:`/generated/anser_indicus`
 
-   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1725706528/DSC_6142_kshfez.jpg
+   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9577_lrmyed.jpg
+   
+     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858596/DSC_0893_wwltcp.jpg
    
      - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607786/DSC_4936_kphmsi.jpg
    
-     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125901/DSC_6049_suyl3i.jpg
-   
    * - :doc:`/generated/ardea_cinerea`
+     - :doc:`/generated/capra_ibex`
      - :doc:`/generated/chroicocephalus_ridibundus`
-     - :doc:`/generated/columba`
 
-   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607783/DSC_4554_ztlngo.jpg
+   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125901/DSC_6049_suyl3i.jpg
    
-     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746211/DSC_9549_dklguz.jpg
+     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726607783/DSC_4554_ztlngo.jpg
    
-     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9552_zeeatw.jpg
+     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858746/DSC_3162_gjxriu.jpg
    
-   * - :doc:`/generated/corvus_corax`
+   * - :doc:`/generated/columba`
+     - :doc:`/generated/corvus_corax`
      - :doc:`/generated/cygnus_olor`
-     - :doc:`/generated/fulica_atra`
 
-   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608156/DSC_4974_xpejo2.jpg
+   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9552_zeeatw.jpg
+   
+     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608156/DSC_4974_xpejo2.jpg
+   
+     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858662/DSC_1091_frpcvq.jpg
+   
+   * - :doc:`/generated/fulica_atra`
+     - :doc:`/generated/gallinula_chloropus`
+     - :doc:`/generated/marmota_marmota`
+
+   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858742/DSC_3132_pupz5k.jpg
    
      - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126012/DSC_6348_apxkt5.jpg
    
      - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726609438/DSC_5654_kqrp57.jpg
    
-   * - :doc:`/generated/gallinula_chloropus`
+   * - :doc:`/generated/myocastor_coypus`
      - :doc:`/generated/pavo_cristatus`
      - :doc:`/generated/phalacrocorax`
 
@@ -47,16 +57,17 @@
    
      - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727126075/DSC_6416_uxatzy.jpg
    
-     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608159/DSC_5032_kg80m8.jpg
+     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858943/DSC_3668_vcpzbd.jpg
    
    * - :doc:`/generated/phalacrocorax_carbo`
      - :doc:`/generated/psittacula_krameri`
      - :doc:`/generated/sturnus`
 
-   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9577_lrmyed.jpg
+   * - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5729_cgdxpj.jpg
+   
+     - .. figure:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858837/DSC_3356_j6aa3e.jpg
    
      -
-     -
-   * - :doc:`/generated/unknown`
-     -
+   * - :doc:`/generated/turdus_merula`
+     - :doc:`/generated/unsorted`
      -

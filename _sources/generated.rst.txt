@@ -6,15 +6,19 @@
    generated/anser_anser
    generated/anser_indicus
    generated/ardea_cinerea
+   generated/capra_ibex
    generated/chroicocephalus_ridibundus
    generated/columba
    generated/corvus_corax
    generated/cygnus_olor
    generated/fulica_atra
    generated/gallinula_chloropus
+   generated/marmota_marmota
+   generated/myocastor_coypus
    generated/pavo_cristatus
    generated/phalacrocorax
    generated/phalacrocorax_carbo
    generated/psittacula_krameri
    generated/sturnus
-   generated/unknown
+   generated/turdus_merula
+   generated/unsorted

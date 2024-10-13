@@ -1,14 +1,9 @@
-??? / ??? / ???
-===============
+Merle noir / Common blackbird / Чёрный дрозд
+============================================
 
-- Français: ???
-- English: ???
-- Русский: ???
-
-.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9577_lrmyed.jpg
-   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728746210/DSC_9577_lrmyed.jpg
-
-
+- Français: Merle noir
+- English: Common blackbird
+- Русский: Чёрный дрозд
 
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5729_cgdxpj.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1727125318/DSC_5729_cgdxpj.jpg

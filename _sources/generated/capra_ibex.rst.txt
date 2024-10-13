@@ -1,0 +1,16 @@
+Ibex / Alpine ibex / Альпийский горный козёл
+============================================
+
+- Français: Ibex
+- English: Alpine ibex
+- Русский: Альпийский горный козёл
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858596/DSC_0893_wwltcp.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858596/DSC_0893_wwltcp.jpg
+
+
+
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858592/DSC_0913_dqt8qs.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858592/DSC_0913_dqt8qs.jpg
+
+

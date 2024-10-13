@@ -5,6 +5,11 @@ Sturnus / Sturnus / Скворeц
 - English: Sturnus
 - Русский: Скворeц
 
+.. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858943/DSC_3668_vcpzbd.jpg
+   :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1728858943/DSC_3668_vcpzbd.jpg
+
+
+
 .. image:: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608159/DSC_5032_kg80m8.jpg
    :target: https://res.cloudinary.com/cjkjvfnby/image/upload/v1726608159/DSC_5032_kg80m8.jpg
 
