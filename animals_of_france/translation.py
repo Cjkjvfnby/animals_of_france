@@ -25,7 +25,10 @@ _mapping = {
         "Индийский кольчатый попугай",
     ),
     "Turdus merula": ("Merle noir", "Common blackbird", "Чёрный дрозд"),
-    "Unknown": ("???", "???", "???"),
+    "Myocastor coypus": ("Ragondin", "Nutria", "Нутрия"),
+    "Capra ibex": ("Ibex", "Alpine ibex", "Альпийский горный козёл"),
+    "Marmota marmota": ("Marmotte des Alpes ", "Alpine marmot", "Альпийский сурок"),
+    "Unsorted": ("???", "???", "???"),
 }
 
 
