@@ -50,8 +50,8 @@ def generate_rst() -> None:
         animals = [
             Animal.from_model(list(group))
             for _, group in groupby(
-                sorted(resources, key=lambda x: x.metadata.latin_name),
-                lambda x: x.metadata.latin_name,
+                sorted(resources, key=lambda x: x.asset_folder),
+                lambda x: x.asset_folder,
             )
         ]
 

@@ -2,12 +2,12 @@ from pydantic import BaseModel, Field
 
 
 class ResourceMetadata(BaseModel):
-    latin_name: str
     coords: str = Field(default="")
     foto_date: str = Field(default="")
 
 
 class Resource(BaseModel):
+    asset_folder: str
     asset_id: str
     secure_url: str
     metadata: ResourceMetadata

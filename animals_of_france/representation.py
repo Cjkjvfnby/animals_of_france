@@ -1,3 +1,5 @@
+from pathlib import PurePath
+
 from pydantic import BaseModel
 
 from animals_of_france.models import Resource
@@ -26,10 +28,12 @@ class Animal(BaseModel):
     @staticmethod
     def from_model(resources: list[Resource]) -> "Animal":
         first_resource = resources[0]
-        fr, en, ru = translate(first_resource.metadata.latin_name)
+
+        latin_name = Animal._get_latin_name(first_resource.asset_folder)
+        fr, en, ru = translate(latin_name)
 
         return Animal(
-            id=first_resource.metadata.latin_name.lower().replace(" ", "_"),
+            id=latin_name.lower().replace(" ", "_"),
             images=[
                 Image(
                     url=resource.secure_url,
@@ -38,8 +42,12 @@ class Animal(BaseModel):
                 )
                 for resource in resources
             ],
-            latin=first_resource.metadata.latin_name,
+            latin=latin_name,
             fr=fr,
             en=en,
             ru=ru,
         )
+
+    @staticmethod
+    def _get_latin_name(folder_name: str) -> str:
+        return PurePath(folder_name).name
