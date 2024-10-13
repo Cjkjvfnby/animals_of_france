@@ -24,6 +24,7 @@ _mapping = {
         "Rose-ringed parakeet",
         "Индийский кольчатый попугай",
     ),
+    "Turdus merula": ("Merle noir", "Common blackbird", "Чёрный дрозд"),
     "Unknown": ("???", "???", "???"),
 }
 
